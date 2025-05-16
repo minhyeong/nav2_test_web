@@ -1,5 +1,8 @@
-import Mainpage from '@/src/components/pages/mainpage'
-import { NextPage } from 'next'
+import MainPage from '@@/components/pages/MainPage';
+import { NextPage } from 'next';
 
-const Root: NextPage = () => <Mainpage />
-export default Root
+const Root: NextPage = () => {
+    return <MainPage />;
+};
+
+export default Root;
